@@ -24,7 +24,7 @@ Example:
 $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/file_server.ts
 [1/1] Compiling https://deno.land/std@$STD_VERSION/http/file_server.ts
 
-   Successfully installed file_server.
+✅ Successfully installed file_server.
 /Users/deno/.deno/bin/file_server
 ```
 <!--
