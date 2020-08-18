@@ -110,13 +110,20 @@ precise check against two primitive types.
 -->
 `assertStrictEquals()` アサーションは2つのプリミティブ型に対して正確なチェックを行いたい場合に最適です。
 
-### Contains
+<!-- ### Contains -->
+### 含有性
 
+<!--
 There are two methods available to assert a value contains a value,
 `assertStringContains()` and `assertArrayContains()`.
+-->
+値に含まれる値をアサートするには、`assertStringContains()`と`assertArrayContains()`の二つのメソッドが利用可能です。
 
+<!--
 The `assertStringContains()` assertion does a simple includes check on a string
 to see if it contains the expected string.
+-->
+`assertStringContains()`アサーションは予測される文字列が含まれているかどうかを確認するための、文字列に対する簡単な含有チェックです。
 
 ```js
 Deno.test("Test Assert String Contains", () => {
@@ -124,8 +131,11 @@ Deno.test("Test Assert String Contains", () => {
 });
 ```
 
+<!--
 The `assertArrayContains()` assertion is slightly more advanced and can find
 both a value within an array and an array of values within an array.
+-->
+`assertArrayContains()`アサーションは、配列の値と配列内の値の配列の両方を見つけることができる少し高度なアサーションです。
 
 ```js
 Deno.test("Test Assert Array Contains", () => {
