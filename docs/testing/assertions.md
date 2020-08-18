@@ -162,19 +162,30 @@ Deno.test("Test Assert Match", () => {
 
 ### Throws
 
+<!--
 There are two ways to assert whether something throws an error in Deno,
 `assertThrows()` and `assertAsyncThrows()`. Both assertions allow you to check
 an
 [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
 has been thrown, the type of error thrown and what the message was.
+-->
+denoにエラーを投げる際のアサートは`assertThrows()` と `assertAsyncThrows()`の二つの方法がある。どちらのアサーションもエラーの型とメッセージの内容が投げられた時は
+[Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+をチェックしましょう。
 
+<!--
 The difference between the two assertions is `assertThrows()` accepts a standard
 function and `assertAsyncThrows()` accepts a function which returns a
 [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+-->
+二つのアサーションの違いは、`assertThrows()`は標準的な機能を備え持っていて、`assertAsyncThrows()`は[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)を返す機能を備え持っているところです。
 
+<!--
 The `assertThrows()` assertion will check an error has been thrown, and
 optionally will check the thrown error is of the correct type, and assert the
 error message is as expected.
+-->
+`assertThrows()`アサーションは投げられたエラーをチェックし、必要に応じて、投げられたエラーの型が正しい型であるかどうかをチェックし、エラーメッセージが予測通りかどうかをアサートします。
 
 ```js
 Deno.test("Test Assert Throws", () => {
@@ -187,10 +198,12 @@ Deno.test("Test Assert Throws", () => {
   );
 });
 ```
-
+<!--
 The `assertAsyncThrows()` assertion is a little more complicated, mainly because
 it deals with Promises. But basically it will catch thrown errors or rejections
 in Promises. You can also optionally check for the error type and error message.
+-->
+`assertAsyncThrows()`アサーションは少し複雑で、主にPromisesを伴って処理をします。しかし、基本的には投げられたエラーかPromisesの中のリジェクションをキャッチします。必要に応じて、エラーの方やエラーメッセージのチェックができます。
 
 ```js
 Deno.test("Test Assert Throws Async", () => {
