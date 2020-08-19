@@ -9,7 +9,7 @@ Denoは`deno install`で配布されている実行コードを簡単にイン�
 `deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` will install the script
 available at `URL` under the name `EXE_NAME`.
 -->
-`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]`で、`EXE_NAME`の下の`URL`にある利用可能なスクリプトをインストールできる。
+`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]`で、`EXE_NAME`の下の`URL`にある利用可能なスクリプトをインストールできます。
 
 <!--
 This command creates a thin, executable shell script which invokes `deno` using
@@ -125,4 +125,3 @@ example installation command to your repository:
 
 $ deno install -n awesome_cli https://example.com/awesome/cli.ts
 ```
-
