@@ -31,7 +31,7 @@ $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/
 <!--
 To change the executable name, use `-n`/`--name`:
 -->
-実行可能ファイル名を変えるためには、`-n`/`--name`を使います。
+実行可能ファイル名を変えるためには、`-n`/`--name`を使ってください:
 
 ```shell
 deno install --allow-net --allow-read -n serve https://deno.land/std@$STD_VERSION/http/file_server.ts
