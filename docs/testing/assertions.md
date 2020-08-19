@@ -203,7 +203,7 @@ The `assertAsyncThrows()` assertion is a little more complicated, mainly because
 it deals with Promises. But basically it will catch thrown errors or rejections
 in Promises. You can also optionally check for the error type and error message.
 -->
-`assertAsyncThrows()`アサーションは少し複雑で、主にPromisesを伴って処理をします。しかし、基本的には投げられたエラーかPromisesの中のリジェクションをキャッチします。必要に応じて、エラーの方やエラーメッセージのチェックができます。
+`assertAsyncThrows()`アサーションは少し複雑で、主にPromiseを伴って処理をします。しかし、基本的には投げられたエラーかPromiseの中のリジェクションをキャッチします。必要に応じて、エラーの方やエラーメッセージのチェックができます。
 
 ```js
 Deno.test("Test Assert Throws Async", () => {
