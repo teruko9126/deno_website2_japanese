@@ -51,7 +51,7 @@ The executable name is inferred by default:
   settle with the generic name.
 -->
 - URLパスのファイルステムを取得しようとしました。上記の例では'file_server'となります。
-- もしファイルステムが'main','mod','index','cli'のようなジェネリックで親のないパスであった場合、親のパスのファイルネームを取得します。そうでなければ、ジェネリック名を用います。
+- もしファイルステムが'main'、'mod'、'index'、'cli'のようなジェネリックで親のないパスであった場合、親のパスのファイルネームを取得します。そうでなければ、ジェネリック名を用います。
 
 <!--
 To change the installation root, use `--root`:
