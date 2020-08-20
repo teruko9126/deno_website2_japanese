@@ -176,7 +176,7 @@ The difference between the two assertions is `assertThrows()` accepts a standard
 function and `assertAsyncThrows()` accepts a function which returns a
 [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 -->
-二つのアサーションの違いは、`assertThrows()`は標準的な機能を備え持っていて、`assertAsyncThrows()`は [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)を返す機能を備え持っているところです。
+二つのアサーションの違いは、`assertThrows()`は標準的な機能を備え持っていて、`assertAsyncThrows()`は [Promise](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise)を返す機能を備え持っているところです。
 
 <!--
 The `assertThrows()` assertion will check an error has been thrown, and
