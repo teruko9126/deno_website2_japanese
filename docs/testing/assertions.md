@@ -123,7 +123,7 @@ There are two methods available to assert a value contains a value,
 The `assertStringContains()` assertion does a simple includes check on a string
 to see if it contains the expected string.
 -->
-`assertStringContains()`アサーションは予測される文字列が含まれているかどうかを確認するための、文字列に対する簡単な含有チェックです。
+`assertStringContains()` アサーションは予測される文字列が含まれているかどうかを確認するための、文字列に対する簡単な含有チェックです。
 
 ```js
 Deno.test("Test Assert String Contains", () => {
