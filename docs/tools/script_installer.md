@@ -51,12 +51,12 @@ The executable name is inferred by default:
   settle with the generic name.
 -->
 - URLパスのファイルステムを取得しようとしました。上記の例では'file_server'となります。
-- もしファイルステムが'main','mod','index','cli'のようなジェネリックで親のないパスであった場合、親のパスのファイルネームを取得します。そうでなければ、ジェネリック名を用います。
+- もしファイルステムが'main'、'mod'、'index'、'cli'のようなジェネリックで親のないパスであった場合、親のパスのファイルネームを取得します。そうでなければ、ジェネリック名を用います。
 
 <!--
 To change the installation root, use `--root`:
 -->
-インストールルートを変えるには、`--root`を使います。
+インストールルートを変えるには、`--root` を使います。
 
 ```shell
 deno install --allow-net --allow-read --root /usr/local https://deno.land/std@$STD_VERSION/http/file_server.ts
@@ -100,11 +100,9 @@ network and read permissions and binds to port 8080.
 For good practice, use the [`import.meta.main`](../examples/testing_if_main.md)
 idiom to specify the entry point in an executable script.
 -->
-練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する [`import.meta.main`](../examples/testing_if_main.md)イディオムを使ってみましょう。
+練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する [`import.meta.main`](../examples/testing_if_main.md) イディオムを使ってみましょう。
 
-<!--
-Example:
--->
+<!-- Example: -->
 例
 
 <!-- dprint-ignore -->
