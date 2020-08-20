@@ -117,7 +117,7 @@ precise check against two primitive types.
 There are two methods available to assert a value contains a value,
 `assertStringContains()` and `assertArrayContains()`.
 -->
-値に含まれる値をアサートするには、`assertStringContains()`と`assertArrayContains()`の二つのメソッドが利用可能です。
+値に含まれる値をアサートするには、`assertStringContains()` と `assertArrayContains()` の二つのメソッドが利用可能です。
 
 <!--
 The `assertStringContains()` assertion does a simple includes check on a string
