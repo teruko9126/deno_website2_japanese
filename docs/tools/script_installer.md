@@ -39,7 +39,7 @@ deno install --allow-net --allow-read -n serve https://deno.land/std@$STD_VERSIO
 <!--
 The executable name is inferred by default:
 -->
-実行可能ファイル名はデフォルトによって推測されます。
+実行可能ファイル名はデフォルトによって推測されます:
 
 <!--
 - Attempt to take the file stem of the URL path. The above example would become
