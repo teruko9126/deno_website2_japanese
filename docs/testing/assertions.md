@@ -6,7 +6,7 @@ To help developers write tests the Deno standard library comes with a built in
 [assertions module](https://deno.land/std@$STD_VERSION/testing/asserts.ts) which
 can be imported from `https://deno.land/std@$STD_VERSION/testing/asserts.ts`.
 -->
-開発者がテストを書くのを助けるためにDeno標準ライブラリはビルトインで [アサーションモジュール](https://deno.land/std@$STD_VERSION/testing/asserts.ts) を備えています。 `https://deno.land/std@$STD_VERSION/testing/asserts.ts` からインポートできます。
+開発者がテストを書くのを助けるためにDeno標準ライブラリはビルトインで [アサーションモジュール](https://deno.land/std@$STD_VERSION/testing/asserts.ts) を備えています。`https://deno.land/std@$STD_VERSION/testing/asserts.ts` からインポートできます。
 
 ```js
 import { assert } from "https://deno.land/std@$STD_VERSION/testing/asserts.ts";
@@ -53,7 +53,7 @@ Deno.test("Test Assert", () => {
 There are three equality assertions available, `assertEquals()`,
 `assertNotEquals()` and `assertStrictEquals()`.
 -->
-`assertEquals()`, `assertNotEquals()`, `assertStrictEquals()` の3つのアサーションが利用可能です。
+`assertEquals()`、`assertNotEquals()`、`assertStrictEquals()` の3つのアサーションが利用可能です。
 
 <!--
 The `assertEquals()` and `assertNotEquals()` methods provide a general equality
@@ -176,7 +176,7 @@ The difference between the two assertions is `assertThrows()` accepts a standard
 function and `assertAsyncThrows()` accepts a function which returns a
 [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 -->
-二つのアサーションの違いは、 `assertThrows()` は標準的な機能を備え持っていて、 `assertAsyncThrows()` は [Promise](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise)を返す機能を備え持っているところです。
+二つのアサーションの違いは、`assertThrows()` は標準的な機能を備え持っていて、`assertAsyncThrows()` は [Promise](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise) を返す機能を備え持っているところです。
 
 <!--
 The `assertThrows()` assertion will check an error has been thrown, and

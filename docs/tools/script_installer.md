@@ -1,16 +1,14 @@
 <!-- ## Script installer -->
 ## スクリプトインストーラー
 
-<!--
-Deno provides `deno install` to easily install and distribute executable code.
--->
+<!-- Deno provides `deno install` to easily install and distribute executable code. -->
 Denoは `deno install` で配布されている実行コードを簡単にインストールすることができます。
 
 <!--
 `deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` will install the script
 available at `URL` under the name `EXE_NAME`.
 -->
-`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` で、 `EXE_NAME` の下の `URL` にある利用可能なスクリプトをインストールできます。
+`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` で、`EXE_NAME` の下の `URL` にある利用可能なスクリプトをインストールできます。
 
 <!--
 This command creates a thin, executable shell script which invokes `deno` using
@@ -33,7 +31,7 @@ $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/
 <!--
 To change the executable name, use `-n`/`--name`:
 -->
-実行可能ファイル名を変えるためには、 `-n`/`--name` を使ってください:
+実行可能ファイル名を変えるためには、`-n`/`--name` を使ってください:
 
 ```shell
 deno install --allow-net --allow-read -n serve https://deno.land/std@$STD_VERSION/http/file_server.ts
