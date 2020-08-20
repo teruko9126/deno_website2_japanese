@@ -486,8 +486,7 @@ function Manual() {
               {content ? (
                 <>
                   <a
-                    // href={getDocURL(version ?? versions[0], path)}
-                    href={getDocURL(version ?? "master", path)}
+                    href={getDocURL(version ?? versions[0], path)}
                     className={`text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out float-right ${
                       path.split("/").length === 2 ? "mt-11" : "mt-9"
                     } mr-4`}
@@ -507,10 +506,24 @@ function Manual() {
                     </svg>
                   </a>
                   <Markdown
+                    /*
                     source={content.replace(/\$STD_VERSION/g, stdVersion)}
-                    // displayURL={"https://deno.land/manual" + path}
-                    displayURL={"https://deno-ja.vercel.app/manual" + path}
+                    displayURL={`https://deno.land/manual${
+                      version ? `@${version}` : ""
+                    }${path}`}
                     sourceURL={sourceURL}
+                    baseURL={`https://deno.land/manual${
+                      version ? `@${version}` : ""
+                    }`}
+                    */
+                    source={content.replace(/\$STD_VERSION/g, stdVersion)}
+                    displayURL={`https://deno-ja.vercel.app/manual${
+                      version ? `@${version}` : ""
+                    }${path}`}
+                    sourceURL={sourceURL}
+                    baseURL={`https://deno-ja.vercel.app/manual${
+                      version ? `@${version}` : ""
+                    }`}
                   />
                   <div className="mt-4 pt-4 border-t border-gray-200">
                     {pageList[pageIndex - 1] !== undefined && (
@@ -579,8 +592,7 @@ function Version({
           <select
             id="version"
             className="block form-select w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5"
-            // value={version ?? varsions[0]}
-            value={version ?? "master"}
+            value={version ?? versions[0]}
             onChange={({ target: { value: newVersion } }) =>
               gotoVersion(newVersion)
             }
