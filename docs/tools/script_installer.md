@@ -90,7 +90,7 @@ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/fi
 The above command creates an executable called `file_server` that runs with
 network and read permissions and binds to port 8080.
 -->
-上記のコマンドは、ネットワークと読み取り権限を設定し8080番のポートにバインドする`file_server`と呼ばれる実行可能ファイルを作っています。
+上記のコマンドは、ネットワークと読み取りパーミッションを設定し8080番のポートにバインドする`file_server`と呼ばれる実行可能ファイルを作っています。
 
 <!--
 For good practice, use the [`import.meta.main`](../examples/testing_if_main.md)
