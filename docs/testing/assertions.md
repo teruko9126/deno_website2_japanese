@@ -196,6 +196,7 @@ Deno.test("Test Assert Throws", () => {
   );
 });
 ```
+
 <!--
 The `assertAsyncThrows()` assertion is a little more complicated, mainly because
 it deals with Promises. But basically it will catch thrown errors or rejections
