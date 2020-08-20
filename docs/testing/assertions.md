@@ -6,7 +6,7 @@ To help developers write tests the Deno standard library comes with a built in
 [assertions module](https://deno.land/std@$STD_VERSION/testing/asserts.ts) which
 can be imported from `https://deno.land/std@$STD_VERSION/testing/asserts.ts`.
 -->
-開発者がテストを書くのを助けるためにDeno標準ライブラリはビルトインで  [アサーションモジュール](https://deno.land/std@$STD_VERSION/testing/asserts.ts) を備えています。`https://deno.land/std@$STD_VERSION/testing/asserts.ts` からインポートできます。
+開発者がテストを書くのを助けるためにDeno標準ライブラリはビルトインで [アサーションモジュール](https://deno.land/std@$STD_VERSION/testing/asserts.ts) を備えています。`https://deno.land/std@$STD_VERSION/testing/asserts.ts` からインポートできます。
 
 ```js
 import { assert } from "https://deno.land/std@$STD_VERSION/testing/asserts.ts";
