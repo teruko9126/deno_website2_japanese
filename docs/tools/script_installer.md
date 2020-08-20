@@ -89,6 +89,7 @@ time.
 ```shell
 deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/file_server.ts -p 8080
 ```
+
 <!--
 The above command creates an executable called `file_server` that runs with
 network and read permissions and binds to port 8080.
