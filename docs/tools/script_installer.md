@@ -1,5 +1,5 @@
 <!-- ## Script installer -->
-##スクリプトインストーラー
+## スクリプトインストーラー
 
 <!--
 Deno provides `deno install` to easily install and distribute executable code.
@@ -19,7 +19,8 @@ the specified CLI flags and main module. It is placed in the installation root's
 -->
 このコマンドは、指定されたCLIフラッグとメインモジュールを使った `deno` を呼び出す薄い実行可能シェルスクリプトを作ります。それはインストールルートの `bin` ディレクトリの中に置かれます。
 
-Example:
+<!-- Example: -->
+例:
 
 ```shell
 $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/file_server.ts
@@ -103,7 +104,7 @@ idiom to specify the entry point in an executable script.
 練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する [`import.meta.main`](../examples/testing_if_main.md) イディオムを使ってみましょう。
 
 <!-- Example: -->
-例
+例:
 
 <!-- dprint-ignore -->
 
