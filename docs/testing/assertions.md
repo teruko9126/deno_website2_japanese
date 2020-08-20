@@ -135,7 +135,7 @@ Deno.test("Test Assert String Contains", () => {
 The `assertArrayContains()` assertion is slightly more advanced and can find
 both a value within an array and an array of values within an array.
 -->
-`assertArrayContains()`アサーションは、配列の値と配列内の値の配列の両方を見つけることができる少し高度なアサーションです。
+`assertArrayContains()` アサーションは、配列の値と配列内の値の配列の両方を見つけることができる少し高度なアサーションです。
 
 ```js
 Deno.test("Test Assert Array Contains", () => {
