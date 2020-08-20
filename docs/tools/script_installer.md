@@ -102,9 +102,7 @@ idiom to specify the entry point in an executable script.
 -->
 練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する [`import.meta.main`](../examples/testing_if_main.md) イディオムを使ってみましょう。
 
-<!--
-Example:
--->
+<!-- Example: -->
 例
 
 <!-- dprint-ignore -->
