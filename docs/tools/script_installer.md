@@ -120,7 +120,7 @@ if (import.meta.main) {
 When you create an executable script make sure to let users know by adding an
 example installation command to your repository:
 -->
-実行可能スクリプトファイルを作る時は、必ずあなたのリポジトリにインストールコマンドの例を追加して、ユーザに知らせましょう。
+実行可能スクリプトファイルを作る時は、必ずあなたのリポジトリにインストールコマンドの例を追加して、ユーザに知らせましょう:
 
 ```shell
 # Install using deno install
