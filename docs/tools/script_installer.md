@@ -36,6 +36,7 @@ To change the executable name, use `-n`/`--name`:
 ```shell
 deno install --allow-net --allow-read -n serve https://deno.land/std@$STD_VERSION/http/file_server.ts
 ```
+
 <!--
 The executable name is inferred by default:
 -->
