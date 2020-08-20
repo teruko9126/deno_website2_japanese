@@ -56,7 +56,7 @@ The executable name is inferred by default:
 <!--
 To change the installation root, use `--root`:
 -->
-インストールルートを変えるには、`--root`を使います。
+インストールルートを変えるには、`--root` を使います。
 
 ```shell
 deno install --allow-net --allow-read --root /usr/local https://deno.land/std@$STD_VERSION/http/file_server.ts
