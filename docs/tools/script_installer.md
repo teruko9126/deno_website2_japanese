@@ -115,6 +115,7 @@ if (import.meta.main) {
   myAwesomeCli();
 }
 ```
+
 <!--
 When you create an executable script make sure to let users know by adding an
 example installation command to your repository:
