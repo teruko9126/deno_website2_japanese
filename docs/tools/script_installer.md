@@ -79,6 +79,7 @@ These must be added to the path manually if required.
 ```shell
 echo 'export PATH="$HOME/.deno/bin:$PATH"' >> ~/.bashrc
 ```
+
 <!--
 You must specify permissions that will be used to run the script at installation
 time.
