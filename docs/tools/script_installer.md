@@ -96,7 +96,7 @@ network and read permissions and binds to port 8080.
 For good practice, use the [`import.meta.main`](../examples/testing_if_main.md)
 idiom to specify the entry point in an executable script.
 -->
-練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する[`import.meta.main`](../examples/testing_if_main.md)イディオムを使ってみましょう。
+練習のために、実行可能スクリプトファイルの中のエントリーポイントを特定する [`import.meta.main`](../examples/testing_if_main.md)イディオムを使ってみましょう。
 
 <!--
 Example:
