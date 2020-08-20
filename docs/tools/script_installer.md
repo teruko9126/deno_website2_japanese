@@ -4,20 +4,20 @@
 <!--
 Deno provides `deno install` to easily install and distribute executable code.
 -->
-Denoは`deno install`で配布されている実行コードを簡単にインストールすることができます。
+Denoは `deno install` で配布されている実行コードを簡単にインストールすることができます。
 
 <!--
 `deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` will install the script
 available at `URL` under the name `EXE_NAME`.
 -->
-`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]`で、`EXE_NAME`の下の`URL`にある利用可能なスクリプトをインストールできます。
+`deno install [OPTIONS...] [URL] [SCRIPT_ARGS...]` で、 `EXE_NAME` の下の `URL` にある利用可能なスクリプトをインストールできます。
 
 <!--
 This command creates a thin, executable shell script which invokes `deno` using
 the specified CLI flags and main module. It is placed in the installation root's
 `bin` directory.
 -->
-このコマンドは、指定されたCLIフラッグとメインモジュールを使った`deno`を呼び出す薄い実行可能シェルスクリプトを作ります。それはインストールルートの`bin`ディレクトリの中に置かれます。
+このコマンドは、指定されたCLIフラッグとメインモジュールを使った `deno` を呼び出す薄い実行可能シェルスクリプトを作ります。それはインストールルートの `bin` ディレクトリの中に置かれます。
 
 Example:
 
@@ -32,7 +32,7 @@ $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/
 <!--
 To change the executable name, use `-n`/`--name`:
 -->
-実行可能ファイル名を変えるためには、`-n`/`--name`を使ってください:
+実行可能ファイル名を変えるためには、 `-n`/`--name` を使ってください:
 
 ```shell
 deno install --allow-net --allow-read -n serve https://deno.land/std@$STD_VERSION/http/file_server.ts
@@ -56,7 +56,7 @@ The executable name is inferred by default:
 <!--
 To change the installation root, use `--root`:
 -->
-インストールルートを変えるには、`--root` を使います。
+インストールルートを変えるには `--root` を使います。
 
 ```shell
 deno install --allow-net --allow-read --root /usr/local https://deno.land/std@$STD_VERSION/http/file_server.ts
