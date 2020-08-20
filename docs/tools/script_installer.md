@@ -63,7 +63,7 @@ deno install --allow-net --allow-read --root /usr/local https://deno.land/std@$S
 <!--
 The installation root is determined, in order of precedence:
 -->
-優先順位のために、インストールルートは決定されます。
+優先順位の順に、インストールルートは決定されます:
 
 - `--root` option
 - `DENO_INSTALL_ROOT` environment variable
