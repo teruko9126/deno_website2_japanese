@@ -28,6 +28,7 @@ $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/
 ✅ Successfully installed file_server.
 /Users/deno/.deno/bin/file_server
 ```
+
 <!--
 To change the executable name, use `-n`/`--name`:
 -->
@@ -78,6 +79,7 @@ These must be added to the path manually if required.
 ```shell
 echo 'export PATH="$HOME/.deno/bin:$PATH"' >> ~/.bashrc
 ```
+
 <!--
 You must specify permissions that will be used to run the script at installation
 time.
@@ -87,6 +89,7 @@ time.
 ```shell
 deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/file_server.ts -p 8080
 ```
+
 <!--
 The above command creates an executable called `file_server` that runs with
 network and read permissions and binds to port 8080.
