@@ -169,7 +169,7 @@ an
 [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
 has been thrown, the type of error thrown and what the message was.
 -->
-Denoにエラーを投げる際のアサートは`assertThrows()` と `assertAsyncThrows()`の二つの方法があります。どちらのアサーションもエラーの型とメッセージの内容が投げられた時は [Error](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Error) をチェックすることができます。
+Denoにエラーを投げる際のアサートは `assertThrows()` と `assertAsyncThrows()` の二つの方法があります。どちらのアサーションもエラーの型とメッセージの内容が投げられた時は [Error](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Error) をチェックすることができます。
 
 <!--
 The difference between the two assertions is `assertThrows()` accepts a standard
