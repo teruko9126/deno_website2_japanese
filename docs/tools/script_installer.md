@@ -81,7 +81,7 @@ echo 'export PATH="$HOME/.deno/bin:$PATH"' >> ~/.bashrc
 You must specify permissions that will be used to run the script at installation
 time.
 -->
-インストール時間のスクリプトを実行するためには権限を指定しなければいけない。
+インストール時にスクリプトを実行するためのパーミッションを指定しなければいけません。
 
 ```shell
 deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/file_server.ts -p 8080
