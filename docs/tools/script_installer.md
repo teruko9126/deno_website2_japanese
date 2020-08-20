@@ -28,6 +28,7 @@ $ deno install --allow-net --allow-read https://deno.land/std@$STD_VERSION/http/
 ✅ Successfully installed file_server.
 /Users/deno/.deno/bin/file_server
 ```
+
 <!--
 To change the executable name, use `-n`/`--name`:
 -->
