@@ -56,3 +56,9 @@ console.log(Deno.resources());
 ### 概要図
 
 ![architectural schematic](https://deno.land/images/schematic_v0.2.png)
+
+<!-- ### Conference -->
+### コンファレンス
+
+[Ryan Dahl - An interesting case with
+Deno](https://www.youtube.com/watch?v=1b7FoBwxc7E)
